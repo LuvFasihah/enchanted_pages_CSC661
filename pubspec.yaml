@@ -1,0 +1,41 @@
+name: diary
+description: A personal diary app with calendar and mood tracking features.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  path: ^1.9.0
+  table_calendar: ^3.0.9
+  intl: ^0.20.2
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  lottie: ^2.7.0
+  http: ^0.13.6
+  sensors_plus: ^6.1.1
+  local_auth: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lottie_weather/
+    - assets/lottie_weather/clear.json
+    - assets/lottie_weather/cloud.json
+    - assets/lottie_weather/rain.json
+    - assets/images/loading_bg.gif
+    - assets/images/google_logo.png
+    - assets/images/profile.jpg
+
